@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main{
+    text-align: center;
+    padding-right: 10vw;
+    padding-left:10vw;
+}
+.babcia {
+  object-fit: contain; /* Scale to fit, keep aspect ratio */
+  object-position: center; /* Center the image */
+  align-items: center;
+    padding-right: 10vw;
+    padding-left:10vw;
+}
+
+h2 {
+    font-size:20px;
+    font-weight: normal;
+}
+
+.currently {
+    border-bottom: 1px solid black;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.columns {
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* flex-wrap: wrap; */
+}
+@media (min-width: 920px) {
+  .columns {
+  flex-direction: row;
+  }}
+
+.column {
+    width:100%;
+    height: 100vh;
+    overflow: scroll;
+    
+}
+
+.oneProject, .oneText, .oneType {
+    font-size: 18px;
+    padding-left:20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.oneDrawing {
+scale:20%;
+}
+.projectInfo, .textInfo {
+color:#0037FF;
+margin-top:3px;
+}
+.projectType {
+    color:#24CB02;
+    margin-top:3px;
+}
+.textType {
+    color:#F9366A;
+}
+.category {
+    text-align: center;
+    font-size: 24px;
+}
