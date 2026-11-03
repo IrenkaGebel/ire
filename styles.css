@@ -15,6 +15,7 @@ body {
 a:link {
   color: rgb(47, 0, 255);
   text-decoration: none;
+  
 }
 
 /* visited link */
@@ -38,6 +39,10 @@ a:active {
 }
 #fotkaBabcia {
   width:520px;
+}
+
+
+ 
 }
 img {
   width: 50%;
